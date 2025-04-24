@@ -1,6 +1,8 @@
 # EXPERIMENT--01-ALP-FOR-8086
 Name : Nandhika P
+
 Roll no : 212223040125
+
 Date of experiment : 20-04-2025
 
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
