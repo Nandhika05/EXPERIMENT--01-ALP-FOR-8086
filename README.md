@@ -78,103 +78,94 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Addition  of 8 bit ALP 
 
 ```
-org 100h 
-MOV AX,1400H 
-MOV BX,1400H
-ADD AX,BX
-ret
+mov Al,76H
+mov Bl,96H
+ADD Al,Bl
+HAl
 ```
 ## Output  
 
- ![Screenshot 2025-04-24 203654](https://github.com/user-attachments/assets/3a15d71a-df89-457a-be3f-d9f061e5d506)
+![Screenshot 2025-03-07 131816](https://github.com/user-attachments/assets/1e1067ee-b284-464c-9d07-0dc3d737f5cf)
 
 ## Subtraction   of 8 bit numbers  ALP 
 ```
-org 100h 
-MOV AX,[5000h] 
-MOV BX,[5002h]
-SUB AX,BX
-ret
+mov Al,85H
+mov Bl,46H
+SUB AL,BK
+HLT
 ``` 
 ## Output  
 
-![Screenshot 2025-04-24 203725](https://github.com/user-attachments/assets/156f6944-2492-4804-9b80-a8d0858f37c8)
+![Screenshot 2025-03-07 132018](https://github.com/user-attachments/assets/6e775663-02e3-41ef-af9d-63166f7547ef)
 
 ## Multiplication alp 
 ```
-org 100h 
-MOV BX,1234H
-MOV CX,123H 
-MOV AX,CX
-mul BX
-ret
+mov Al,86H
+mov Bl,75H
+MUL Bl
+HLT
 ```
  ## Output  
 
-![Screenshot 2025-04-24 203759](https://github.com/user-attachments/assets/71a30e5a-10bc-4bf2-a4c4-c5be2c5e894d)
+![Screenshot 2025-03-07 135400](https://github.com/user-attachments/assets/3d6fad4f-4416-4f5a-9ea1-6eaaf2034293)
 
 ## Division alp 
 ```
-org 100h 
-MOV BX,50H
-MOV AX,BX
-MOV CX,05H
-DIV CX
-ret
+mov Al,42H
+mov Bl,87H
+DIV Bl
+HLT
 ```
 ## Output  
 
-![Screenshot 2025-04-24 203816](https://github.com/user-attachments/assets/5780cc31-c476-4e9b-98e1-6d6b17b7fb9e)
+![Screenshot 2025-03-07 132406](https://github.com/user-attachments/assets/16daf33e-718d-4504-9b20-343973f1415a)
+
 
 ## AND Of 8 bit numbers ALP
 ```
-assembly
-MOV AL,33H
-MOV BL,44H
-AND AL,BL
+mov Al,71H
+mov Bl,35H
+AND Al,Bl
 HLT
 ```
 ## Output
 
-![Screenshot 2025-04-24 203846](https://github.com/user-attachments/assets/b0456f54-52a9-4ecf-b5d7-5056c420e296)
+![Screenshot 2025-03-07 132606](https://github.com/user-attachments/assets/6100e10a-6140-4858-bbd7-af5fe49ad742)
 
 ## OR if 8 bit numbers ALP
 ```
-assembly
-MOV AL,45H
-MOV BL,66H
+MOV AL,46H
+MOV BL,73H
 OR AL,BL
 HLT
 ```
 ## Output
 
-![Screenshot 2025-04-24 203907](https://github.com/user-attachments/assets/62dc5f12-fec8-4b5b-a9d8-ade093ba301f)
-
+![Screenshot 2025-03-07 132701](https://github.com/user-attachments/assets/43d4870e-f5d8-47fb-af9c-5140588377ac)
 
 ## NOT of 8 bit numbers ALP
 ```
-assembly
-MOV AL,65H
+MOV AL,78H
 NOT AL
 HLT
 ```
 
 ## Output
 
-![Screenshot 2025-04-24 203927](https://github.com/user-attachments/assets/bfe162d2-e5f0-4cde-bf47-492576af5a06)
+![Screenshot 2025-03-07 133217](https://github.com/user-attachments/assets/663c10ab-fd84-4e2e-941d-f7dd5d167e72)
 
 ## XOR of 8 bit numbers ALP
 ```
-assembly
-MOV AL,66H
-MOV BL,77H
-XOR AL,BL
+mov Al,25H
+mov Bl,98H
+XOR Al,Bl
 HLT
 ```
 
 ## Output
 
-![Screenshot 2025-04-24 203943](https://github.com/user-attachments/assets/cdfafbb5-77fb-455b-9e03-0dad8032a922)
+![Screenshot 2025-03-07 132805](https://github.com/user-attachments/assets/4d00cd79-1d0f-4e9d-b70c-6a097f8c80e0)
+
 
 ## Result
 
